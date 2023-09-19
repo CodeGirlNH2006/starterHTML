@@ -6,5 +6,39 @@
 </head>
 <body>
 
+<form method="GET" action="" name="form">
+
+    <!-- Input tags allow all kinds of inputs.
+        Label tags marry the text to the form field.
+        Important Attributes: name, id, type
+
+        Types: test, radio
+        -->
+
+    <label for="fName">First Name:</label>
+    <input type="text" name="fName" id="fName" value="Enter First Name"/></br>
+
+    Are you alive?
+
+    <label>Yes</label>
+
+    <input type="radio" name="alive" id="yes" value="yes"/>
+
+    <label>No</label>
+
+    <input type="radio" name="alive" id="no" value="no"/><br/>
+
+    Check all that apply:<br/>
+    <input type="checkbox" name="webDesign" value="Web Design" id="webDesign"/>
+    <label for="webDesign">Web Design</label><br/>
+    <input type="checkbox" name="CSP" value="Computer Science Principles" id="CSP"/>
+    <label for="CSP">CSP</label><br/>
+    <input type="checkbox" name="cybSec" value="Cybersecurity" id="cybSec"/>
+    <label for="cybSec">Cybersecurity</label><br/><br/>
+
+    <input type="submit" value="Submit"/>
+
+</form>
+
 </body>
 </html>
