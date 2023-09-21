@@ -16,17 +16,17 @@
         -->
 
     <label for="fName">First Name:</label>
-    <input type="text" name="fName" id="fName" value="Enter First Name"/></br>
+    <input type="text" name="fName" id="fName" value="Enter First Name"/></br><br/>
 
     Are you alive?
 
-    <label>Yes</label>
+    <label for="yes">Yes</label>
 
     <input type="radio" name="alive" id="yes" value="yes"/>
 
-    <label>No</label>
+    <label for="no">No</label>
 
-    <input type="radio" name="alive" id="no" value="no"/><br/>
+    <input type="radio" name="alive" id="no" value="no"/><br/><br/>
 
     Check all that apply:<br/>
     <input type="checkbox" name="webDesign" value="Web Design" id="webDesign"/>
@@ -35,6 +35,17 @@
     <label for="CSP">CSP</label><br/>
     <input type="checkbox" name="cybSec" value="Cybersecurity" id="cybSec"/>
     <label for="cybSec">Cybersecurity</label><br/><br/>
+
+    <label for="numbers">Grade Level:</label>
+    <select name="numbers" id="numbers">
+        <option value="9">Freshman</option>
+        <option value="10">Sophomore</option>
+        <option value="11">Junior</option>
+        <option value="12">Senior</option>
+    </select> <br/><br/>
+
+    <textarea name="comments" rows="20" cols="50">This is where you can put comments</textarea><br/>
+
 
     <input type="submit" value="Submit"/>
 
